@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+body{
+    margin: 0;
+}
+.header{
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+.ff{
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    color: azure;
+}
+
+.list{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 600px){
+    header{
+        background-image: url(images/Top_1.jpg);
+    }
+}
+.castle{
+    float: right;
+}
+.sidebar{
+    width: 20%;
+    border-right: 3px solid red;
+    margin: 10px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+main{
+   width: 80%; 
+}
+.aside{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.ff{
+    background-image: url(images/aside_1.jpg);
+    background-position: -205px 0;
+}
+.ff, .ss{
+    margin-bottom: 10px;
+}
+.ss{
+    background-image: url(images/all_.jpg);
+    background-position: -148px 0;
+}
+.tt{
+    background-image: url(images/tokio.jpeg);
+    background-position: -177px 258px;
+}
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+
+.mecha{
+    float: left;
+    width: 239px;
+}
+header{
+    background-image: url(images/zero_two_forest.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 570px;
+}
+body{
+    scroll-behavior: auto;
+    margin: 0;
+    background-color: aliceblue;
+}
+.come_back_pls{
+    z-index: 3;
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    background-image: url(images/upper.png);
+    background-size: cover;
+}
+article{
+   width: 88%; 
+}
+.article{
+    position: absolute;
+    width: 70%;
+    top: 100px;
+    left: 200px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    justify-content: space-around;
+}
+.container s{
+    justify-content: space-between;
+}
+.circle{
+    transform: rotate(-30deg);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 13px solid #FE0203;
+    box-sizing: border-box;
+    transition-duration: 0.2s;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.mecha, .yagg, .castle{
+    margin: 10px;
+}
+p{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.rect{
+    width: 20px;
+    height: 50px;
+    background-color: #FE0203;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    bottom: -55px;
+    transition: all 0.3s;
+    transform: rotate(-1deg);
+    z-index: 3;
+}
+main{
+    width: 80%;
+}
+.main_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+    border: 2px solid #FE0203;
+    z-index: 2;
+}
+.main_circle:hover .circle{
+    transform: rotate(45deg);
+    border-radius: 50px 50px 20px 50px;
+}
+.main_circle:hover{
+    border: 50px solid #FE0203;
+}
+.main_circle:hover .rect{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    top: 30px;
+    left: 30px;
+}
+.lupa{
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+a .lupa{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.flag{
+    text-decoration: none;
+    display: block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: background-color 500ms linear, box-shadow 500ms linear;
+}
+.flag_{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #FE0203;
+    margin-top: 30px;
+    font-family: 'Monoton';
+}
+.flag:hover{
+    background-color: gold;
+    box-shadow: 0 0 30px #9F031F;
+}
+.geo{
+    background-color: black;
+}
+.glass{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url(images/animat_1/1.png);
+    background-size: contain;
+    transition: all 400ms linear;
+}    
+.glass:hover{
+    animation: glass_shine 1s infinite ease-in-out;
+}
+nav{
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    position: absolute;
+    top: 400px;
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+}
+video{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.yagg{
+    width: 300px;
+    float: right;
+}
+.Mov_cas, .Eva{
+    margin-bottom: 40px;
+}
+.mov_castle{
+    
+}
+@keyframes glass_shine{
+    0%{
+        background-image: url(images/animat_1/1.png);
+    }
+    9%{
+        background-image: url(images/animat_1/2.png);
+    }
+    18%{
+        background-image: url(images/animat_1/3.png);
+    }
+    27%{
+        background-image: url(images/animat_1/4.png);
+    }
+    36%{
+        background-image: url(images/animat_1/5.png);
+    }
+    45%{
+        background-image: url(images/animat_1/6.png)
+    }
+    54%{
+        background-image: url(images/animat_1/7.png)
+    }
+    63%{
+        background-image: url(images/animat_1/8.png)
+    }
+    72%{
+        background-image: url(images/animat_1/9.png)
+    }
+    81%{
+        background-image: url(images/animat_1/10.png)
+    }
+    90%{
+        background-image: url(images/animat_1/11.png);
+    }
+    100%{
+        background-image: url(images/animat_1/1.png);
+    }
+}
+.cont{
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
